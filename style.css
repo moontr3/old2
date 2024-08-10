@@ -93,13 +93,22 @@ nav a {
     font-family: 'fs we want to run';
     font-size: 7vw;
     color: #ddd;
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
 }
 .title-about {
     margin-bottom: 8vh;
     font-size: 18px;
     width: 50vw;
     position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #ccc;
+}
+.title-sub {
+    margin-bottom: 8vh;
+    font-size: 18px;
+    width: 50vw;
+    position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
     color: #ccc;
@@ -205,6 +214,10 @@ nav a {
     font-size: 0.8em;
     margin: 0 0 30px 0;
     position: absolute;
+}
+.title-sub {
+    color: #888;
+    font-size: 0.8em;
 }
 
 footer {
